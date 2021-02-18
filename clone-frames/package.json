@@ -1,5 +1,5 @@
 {
-  "name": "duplicate-artboards",
+  "name": "clone-frames",
   "version": "1.0.0",
   "description": "Your Figma plugin",
   "main": "code.js",

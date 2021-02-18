@@ -1,5 +1,6 @@
-// Get current page selection
+// Get current Page selection
 const selection = figma.currentPage.selection;
+// Grab every Frame and rename it based on a particular layer inside the frame
 for (var x in selection) {
     const layer = selection[x]['children'];
     selection[x].name = layer[14]['children'][1]['characters'];
